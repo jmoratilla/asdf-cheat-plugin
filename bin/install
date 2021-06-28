@@ -52,7 +52,7 @@ install() {
 
 get_download_url() {
   local filename="$1"
-  echo "https://github.com/cheat/cheat/releases/download/${version}/${filename}.tar.gz"
+  echo "https://github.com/cheat/cheat/releases/download/${version}/${filename}.gz"
 }
 
 install $ASDF_INSTALL_TYPE $ASDF_INSTALL_VERSION $ASDF_INSTALL_PATH
