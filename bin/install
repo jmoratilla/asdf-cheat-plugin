@@ -44,7 +44,7 @@ install() {
   cp $tmp_path $bin_path
 
   echo "Cleaning tmps..."
-  rm -r $tmp_path $tmp_bin_path
+  rm -r $tmp_path
 
   echo "Run: asdf <global | local> cheat ${version}"
   chmod +x $bin_path
