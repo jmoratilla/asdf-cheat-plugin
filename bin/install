@@ -41,7 +41,7 @@ install() {
   gzip -d $tmp_bin_path
 
   echo "Moving bin to ${bin_path}"
-  cp $tmp_path/cheat $bin_path
+  cp $tmp_path $bin_path
 
   echo "Cleaning tmps..."
   rm -r $tmp_path $tmp_bin_path
